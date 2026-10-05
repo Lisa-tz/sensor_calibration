@@ -20,6 +20,8 @@ setup(
         'console_scripts': [
             'imu_recorder = sensor_calibration.imu_recorder:main',
             'analyze_gyro = sensor_calibration.analyze_gyro:main',
+            'accel_sixpos = sensor_calibration.accel_sixpos:main',
+            'analyze_accel = sensor_calibration.analyze_accel:main',
         ],
     },
 )
